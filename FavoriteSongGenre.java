@@ -4,6 +4,9 @@ import java.util.Scanner;
 public class FavoriteSongGenre {
     public static void main(String[] args) throws IOException {
       try{
+        Interface javaFX = new Interface();
+        javaFX.create();
+
         System.out.println(Help.about());
 
         Scanner scanner = new Scanner(System.in);
