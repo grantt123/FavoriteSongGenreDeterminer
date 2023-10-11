@@ -1,3 +1,12 @@
+//*********************************************
+// Title: Favorite Song Genre Determiner
+// Name: Grant Tran
+// Course Section: CMIS202-ONL1 (Seidel) Fall 2023
+// File: FavoriteSongGenre.java
+// Description: This file is essentially where the output comes into the console and allows the user
+// to fill in their favorite song genres for each day.
+//*********************************************
+
 import java.io.*;
 import java.util.Scanner;
 
