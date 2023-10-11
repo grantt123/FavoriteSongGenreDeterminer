@@ -1,3 +1,11 @@
+//*********************************************
+// Title: Favorite Song Genre Determiner
+// Name: Grant Tran
+// Course Section: CMIS202-ONL1 (Seidel) Fall 2023
+// File: Interface.java
+// Description: This file is the interface where the user can input their name
+//*********************************************
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
