@@ -1,3 +1,11 @@
+//*********************************************
+// Title: Favorite Song Genre Determiner
+// Name: Grant Tran
+// Course Section: CMIS202-ONL1 (Seidel) Fall 2023
+// File: SongGenrePicker.java
+// Description: This file is where each genre can be picked from, and displays what the software is about.
+//*********************************************
+
 public class SongGenrePicker {
   
     private String songGenre = "";
