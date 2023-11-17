@@ -30,7 +30,7 @@ public class HashTable {
         return table[hash].contains(key);
     }
 
-    private int calculateHash(String key) {
+    public int calculateHash(String key) {
         return key.length() % TABLE_SIZE;
     }
 }
