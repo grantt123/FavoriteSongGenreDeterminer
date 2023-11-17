@@ -9,8 +9,10 @@
 import java.util.LinkedList;
 
 public class HashTable {
+
     private LinkedList<String>[] table;
     private static final int TABLE_SIZE = 10; 
+    
     public HashTable() {
         table = new LinkedList[TABLE_SIZE];
         for (int i = 0; i < TABLE_SIZE; i++) {
