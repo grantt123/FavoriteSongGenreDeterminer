@@ -15,6 +15,7 @@ import java.util.LinkedList;
 import javax.swing.*;
 
 public class Interface extends JFrame {
+    
     private Font mainFont = new Font ("Tahoma", Font.BOLD, 18);
     JTextField name;
     JLabel welcome;
