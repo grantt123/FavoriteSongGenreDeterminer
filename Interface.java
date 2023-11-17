@@ -9,12 +9,19 @@
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.LinkedList;
 import javax.swing.*;
 
 public class Interface extends JFrame {
     private Font mainFont = new Font ("Tahoma", Font.BOLD, 18);
     JTextField name;
     JLabel welcome;
+    Deque<String> nameDeque = new ArrayDeque<>();
+    LinkedList<String> linkedList = new LinkedList<>();
+    HashTable hashTable = new HashTable();
+
     public void create() {
 
         JLabel userInput = new JLabel("Enter Your Name!");
@@ -42,6 +49,9 @@ public class Interface extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String input = name.getText();
                 welcome.setText("Hi " + input + ", nice to meet you! Fill out the information in the console below.");
+                nameDeque.add(input);
+                linkedList.add(input);
+                hashTable.put(input);
             }
         });
 
@@ -60,7 +70,7 @@ public class Interface extends JFrame {
         add(mainPanel);
 
         setTitle("Welcome!");
-        setSize(720,300);
+        setSize(800,300);
         setMinimumSize(new Dimension(300,200));
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
