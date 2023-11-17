@@ -6,5 +6,4 @@ This software works by the user inputting their favorite song for the day into t
 People may want to use this for their own use. They may wonder what type of music they like to listen to and what their most listened to genre is.
 
 Here is a UML Diagram for the classes:
-![uml drawio](https://github.com/grantt123/Favorite-Song-Genre-Determiner/assets/147453883/ac81457b-4799-4b52-8730-644fb80916d6)
-
+![uml drawio](https://github.com/grantt123/FavoriteSongGenreDeterminer/assets/147453883/d6e50c73-f380-4ab4-8f3c-786af760a9a2)
