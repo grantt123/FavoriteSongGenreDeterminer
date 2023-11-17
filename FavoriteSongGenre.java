@@ -3,16 +3,18 @@
 // Name: Grant Tran
 // Course Section: CMIS202-ONL1 (Seidel) Fall 2023
 // File: FavoriteSongGenre.java
-// Description: This file is essentially where the output comes into the console and allows the user
+// Description:This file is essentially where the text and information comes from and allows the user
 // to fill in their favorite song genres for each day.
 //*********************************************
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class FavoriteSongGenre {
-    public static void main(String[] args) throws IOException {
-      try{
+
+    public void collectFavoriteGenres() throws IOException {
         Interface javaFX = new Interface();
         javaFX.create();
 
@@ -96,10 +98,5 @@ public class FavoriteSongGenre {
         }
         fileScanner.close();
         scanner.close();
-        
-      } catch (IOException e) {
-        System.out.println("An error occurred while reading/writing the file.");
-            e.printStackTrace();
-        }  
     }
 }
